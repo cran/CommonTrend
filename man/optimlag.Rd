@@ -16,7 +16,7 @@ optimlag(data, k=10, ecdet= "none" )
   \item{k}{ maximum number of lags to search }
   \item{ecdet}{ Character, the same argument used in \code{ca.jo}.
                 In the package \code{urca}, \sQuote{\code{none}} is
-                for no intercept in ECT (only in VECM),
+                for no intercept in ECT (but there is constant in VECM, just outside ECT),
                 \sQuote{\code{const}} is for constant term in ECT and \sQuote{\code{trend}} is for trend in ECT. See Details. 
               }
 }

@@ -1,4 +1,4 @@
-print.optimlag <-function(x,  ...){
+"print.optimlag" <-function(x,  ...){
   cat("Under the assumption of only one common trend," ,"\n",
       "the Lag order to maximize Johansen statistic(1988):","\n",sep="")
   print(x$Olag)

@@ -1,4 +1,4 @@
-print.ComT <-
+"print.ComT" <-
 function(x,  ...){
   title <- paste(x$method)
   cat("According to ", title,"\n", sep="")
@@ -12,4 +12,3 @@ function(x,  ...){
   cat("Loading Vector:", "\n")
   print(x$loading.vector)
   }
-

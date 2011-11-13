@@ -10,6 +10,6 @@ function ( data, k=10,ecdet="none")
                  Olag= which(  result==max(result[2:k])  ),
              list.lags=result  
              )
-  class(final)="optimlag"
+  class(final)<-"optimlag"
   final
 }

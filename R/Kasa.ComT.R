@@ -31,5 +31,5 @@ Kasa.ComT <- function (data,rank,k)
                  loading.vector= loading,  
                  stationary=station.p, data.used=t(data[(k+1):max,])  ) 
   class(result)<-"ComT"
-  result
+  return(result)
   }

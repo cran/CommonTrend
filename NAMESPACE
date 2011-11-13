@@ -2,4 +2,9 @@ import(urca)
 import(MASS)
 
 
-export(optimlag,Kasa.ComT,GG.ComT,plotComT,print.ComT,print.optimlag)
+export(optimlag,Kasa.ComT,GG.ComT,plotComT,p.Johansen,q.Johansen)
+
+exportClasses("ComT","optimlag")
+
+S3method(print, ComT)
+S3method(print, optimlag)
