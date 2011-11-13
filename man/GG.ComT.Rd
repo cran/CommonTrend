@@ -3,7 +3,7 @@
 \title{ Permanent-Transitory Decomposition}
 \description{ 
    Extract Common Trend(s) from a cointegration system according to
-   Gonzalo and Grange(1995). This is method is also known as the
+   Gonzalo and Grange(1995). This method is also known as the
    Permanent-Transitory Decomposition. Loading Matrix and Othogonal
    Complement of alpha and beta are also reported. 
 }

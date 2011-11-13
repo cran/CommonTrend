@@ -3,7 +3,7 @@
 \title{ Plot the common trend(s)
 }
 \description{
-Plot the common trends and compare them with the otiginal series. 
+Plot the common trends and compare them with the original series. 
 }
 \usage{
 
@@ -24,7 +24,7 @@ The vector used as the x-axis. Its length must be equal to the length of origina
   \item{approx.ticks}{
 The number of ticks on the x-axis. If NULL, then 7 is used.
 }
-  \item{legend}{ a vector with two characters. The first one is the legend for original series; the second one is that for its common trends.
+  \item{legend}{ A vector with two characters. The first one is the legend for original series; the second one is that for its common trends.
 }
   \item{main}{
 Character. The main title of the graph. 

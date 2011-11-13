@@ -1,10 +1,10 @@
 \name{optimlag}
 \alias{optimlag}
 
-\title{ Search the lag order to maximize Johansen statistics (1988)
+\title{ Search the lag order to maximize Johansen Statistics (1988)
 }
 \description{
-        Search the lag order to maximize Johansen statistics (1988)
+        Search the lag order to maximize Johansen Statistics (1988)
         assuming there is only one common trend.
 }
 \usage{
@@ -33,7 +33,7 @@ optimlag(data, k=10, ecdet= "none" )
 
   \item{Olag.value}{The maximized Johansen statistics (trace)}
   \item{Olag}{The lag order that maximizes Johansen statistics}
-  \item{list.lags}{A list of all the possible lag orders and their corresponding                     Johansen Statistics. Note that the value when lag order is one is NA since             lag order must bigger than 2}
+  \item{list.lags}{A list of all the possible lag orders and their corresponding                     Johansen Statistics. Note that the value when lag order is one is NA since             lag order must bigger than 2.}
 }
 
 \references{

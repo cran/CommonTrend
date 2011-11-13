@@ -3,7 +3,7 @@
 \title{Common Trend(s) according to Kasa(1992)}
 \description{ 
    Extract Common Trend(s) from a cointegration system according to
-   Kasa(1992).Loading Matrix and Othogonal Complement of alpha and
+   Kasa(1992). Loading Matrix and Othogonal Complement of alpha and
    beta are also reported. 
 }
 \usage{Kasa.ComT(data, rank, k) 

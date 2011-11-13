@@ -2,7 +2,7 @@
 \docType{class}
 \alias{ComT-class}
 \title{
-Representation of class \code{optimlag}
+Representation of class \code{ComT}
 }
 \description{
 This class contains several useful objects about the estimated common trends for further manipulations.
@@ -26,7 +26,7 @@ Character. Method used to extract the common trends.
 }
 \item{common.trend}{ The common trends after multiplied with the loading matrix.  
 }
-\item{pure.trend}{ The 'pure' common trends without multiplying with the loading matrix.  
+\item{pure.trend}{ The \sQuote{pure} common trends without multiplying with the loading matrix.  
 }
 \item{loading.vector}{ The loading matrix.
 }

@@ -11,7 +11,7 @@ This class contains several useful objects about the optimum lag order for furth
 
 
 \arguments{
-  \item{Olag.value}{Under the assumption of only one common trend, the Lag order to maximize Johansen statistic(1988).
+  \item{Olag.value}{Under the assumption of only one common trend, the lag order to maximize Johansen Statistic(1988).
 }
 \item{Olag}{ The mazimized corresponding Johansen Statistic. 
 }

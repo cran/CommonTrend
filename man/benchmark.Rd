@@ -3,8 +3,9 @@
 \docType{data}
 \title{Data set for logged stock indices in three benchmark markets}
 \description{
-  This data set contains the series used by S. Johansen and K. Juselius
-  for estimating a money demand function of Finland.
+  Data set for logged stock indices in three benchmark markets, US,UK and HK.
+These three markets are generally believed to be fully integrated with the 
+word market, thus they may share a single stochastic common trend. 
 }
 \usage{
 data(benchmark)
