@@ -3,8 +3,7 @@
 \title{Common Trend(s) according to Kasa(1992)}
 \description{ 
    Extract Common Trend(s) from a cointegration system according to
-   Kasa(1992). Loading Matrix and Othogonal Complement of alpha and
-   beta are also reported. 
+   Kasa(1992). Loading Matrix and Othogonal Complement of \eqn{\alpha} and \eqn{\beta} are also reported. 
 }
 \usage{Kasa.ComT(data, rank, k) 
 }
@@ -17,14 +16,7 @@
 
 \details{
 
- Common trends extracted using Kasa's method does not necessarily correspond to the Permanent part in the original series.
- But the advantage of this method is that it only uses \eqn{\beta} to construct common trends, and \eqn{\beta} has a nice propery which \eqn{\alpha} does not have: Super Consistent.
-
- Though this method does not involve \eqn{\alpha}, \eqn{\alpha} is also reported for your convenience.
-
- Currently this function assumes that no determinstic parts, such as
- the constant and the trend, are in the Error-Correction Terms (ECT).
- But it does allow the existence of constant term in the VECM (just outside ECT).
+  For all the details, functions and its differences with the method proposed by Gonzalo and Granger, see \code{\link{GG.ComT}}.
     
 }
 \value{
@@ -42,7 +34,7 @@
 \author{Fan Yang}
 
 \seealso{
-  \code{\link{ComT-class}},\code{\link{plotComT}}
+  \code{\link{ComT-class}}, \code{\link{plotComT}}
 }
 \examples{
  

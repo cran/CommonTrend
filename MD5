@@ -1,7 +1,7 @@
-091fc3a4f4c6f705c4af20732fccafc5 *DESCRIPTION
-bb9ad65a9e9fefb91c9485bcdc1d84c9 *NAMESPACE
-5032d1ce5d017ac504860878c64e2a2e *R/GG.ComT.R
-94684b07ceabdd48fd324e825b815cbc *R/Kasa.ComT.R
+bb40ab829484406610b4038e89465558 *DESCRIPTION
+fe3f29aad2882949f4000f85e5689cbc *NAMESPACE
+4d9a13a7fe7016ae60bdd95bddf69758 *R/GG.ComT.R
+67d7acbfc66445ae63f4e8350c674365 *R/Kasa.ComT.R
 6d575d68a67590634bc8ad6c0355c764 *R/optimlag.R
 990b0455c9fda5534d661744c5ae09dd *R/p.Johansen.R
 fb7baa79774996ce8ea99db71851a579 *R/plotComT.R
@@ -10,11 +10,11 @@ fb7baa79774996ce8ea99db71851a579 *R/plotComT.R
 faa8df133ba286b50e4551af62bbf8f1 *R/q.Johansen.R
 893d0c89cdc0a2cb5e86c22586527e26 *data/benchmark.rda
 f40c0dddb434ca4d55f244b52f0b0ffa *man/ComT-class.Rd
-0af2b01bcb465a0919756d7836429813 *man/GG.ComT.Rd
-235187437f7f7ffe4a6fea53ea88d3f3 *man/Kasa.ComT.Rd
+862bac85c5d97e1ad675861994e0471d *man/GG.ComT.Rd
+32e3b6c304bce71b8099bfe75331ce01 *man/Kasa.ComT.Rd
 1c12dfda4fddc4a66e8d2741c7a96ddf *man/benchmark.Rd
 cae4c74665f7ac4a16f8d61b13cb7c2b *man/optimlag-class.Rd
 f44fc85ba7c1a17febf47c85fc26212e *man/optimlag.Rd
 5111d8c29a0f846ba48aab23f240a970 *man/p.Johansen.Rd
 cbe2be0ae1d0f8c580efffc3213b1e9c *man/plotComT.Rd
-ada65125949ccec7538eab1da2579f74 *man/q.Johansen.Rd
+ad604a0363676f65acadc1c6697cec34 *man/q.Johansen.Rd

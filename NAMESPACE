@@ -1,5 +1,6 @@
 import(urca)
 import(MASS)
+import(methods)
 
 
 export(optimlag,Kasa.ComT,GG.ComT,plotComT,p.Johansen,q.Johansen)
